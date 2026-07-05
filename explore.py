@@ -1,7 +1,7 @@
 import pandas as pd
 
 print("🔄 Loading Telco Churn dataset...")
-df = pd.read_csv('WA_Fn-UseC_-Telco-Customer-Churn.csv')
+df = pd.read_csv('churn.csv')
 
 print("\n📋 Dataset Shape (Rows, Columns):")
 print(df.shape)
